@@ -6,6 +6,7 @@ namespace SlutProjekt
     public class EnemyPokemon: Pokemon
     {
         
+        //
         public void Fight(string userPokemonName, int userPokemonWeight, int userPokemonHeight, int userPokemonBaseExperience,
                         string enemyPokemonName, int enemyPokemonWeight, int enemyPokemonHeight, int enemyPokemonBaseExperience)
         {
