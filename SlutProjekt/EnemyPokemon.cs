@@ -6,13 +6,17 @@ namespace SlutProjekt
     public class EnemyPokemon: Pokemon
     {
         
-        //
+        //Inherits all the properties of Pokemon
+
+
+        //Starts the Fight function
         public void Fight(string userPokemonName, int userPokemonWeight, int userPokemonHeight, int userPokemonBaseExperience,
                         string enemyPokemonName, int enemyPokemonWeight, int enemyPokemonHeight, int enemyPokemonBaseExperience)
         {
 
             int userPoint = 0;
 
+            //Starts the fight using the values taken in
             if (enemyPokemonWeight > userPokemonWeight)
             {
                 Console.WriteLine("The " + enemyPokemonName + " tried to jump and crush your " + userPokemonName);
